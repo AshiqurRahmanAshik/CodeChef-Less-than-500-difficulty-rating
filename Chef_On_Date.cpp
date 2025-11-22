@@ -12,10 +12,10 @@ int main() {
     while (tc--){
         cin >> x >> y;
         if (x>=y){
-            cout << "NO"<< endl;
+            cout << "YES"<< endl;
         }else{
 
-            cout << "YES"<< endl;
+            cout << "NO"<< endl;
         }
     }
     return 0;
