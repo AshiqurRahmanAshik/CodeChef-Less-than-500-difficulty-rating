@@ -1,6 +1,6 @@
 /*
-Problem Link:
- Date:
+Problem Link:https://www.codechef.com/practice/course/basic-programming-concepts/DIFF500/problems/FEVER
+ Date:23/11/25
 */
 
 #include <bits/stdc++.h>
