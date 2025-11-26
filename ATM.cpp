@@ -10,7 +10,7 @@ int main()
 {
     float x, y;
     cin >> x >> y;
-    if (int(x) % 5 != 0 || y < x+0.5) // modulo operator can not operate on float value
+    if (int(x) % 5 != 0 || y < x + 0.5) // modulo operator can not operate on float value
     {
         cout << fixed << setprecision(2) << y;
     }
