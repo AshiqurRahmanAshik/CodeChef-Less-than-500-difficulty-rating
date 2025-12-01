@@ -8,6 +8,12 @@ using namespace std;
 
 int main()
 {
-    int 
-    return 0;
+    int tc;
+    cin >> tc;
+    while (tc--)
+    {
+        int x, y;
+        cin >> x >> y;
+        cout << y + (x / 10) << endl;
+    }
 }
