@@ -13,8 +13,12 @@ int main()
     while (tc--)
     {
         cin >> x;
-        int first = x / 10;
         int last = x % 10;
+        int first = x;
+        while (first >= 10)
+        {
+            first /= 10;
+        }
         cout << first + last << endl;
     }
     return 0;
