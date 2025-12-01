@@ -10,7 +10,7 @@ int main()
 {
     int x;
     cin >> x;
-    if (x >= 163)
+    if (x > 163)
     {
         cout << "Yes";
     }
