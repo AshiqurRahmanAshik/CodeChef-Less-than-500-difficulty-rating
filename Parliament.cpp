@@ -14,9 +14,11 @@ int main()
     while (tc--)
     {
         cin >> n >> x;
-        double result = n / 2;
-        cout << result << endl;
 
+        if (2 * x >= n)
+            cout << "YES" << endl;
+        else
+            cout << "NO" << endl;
         return 0;
     }
 }
